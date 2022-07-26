@@ -1,0 +1,89 @@
+#contenedor {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    height: 700px;
+}
+
+#canales {
+    width: 20%;
+    background-color: rgb(30, 32, 150);
+}
+
+#contenedorChat {
+    width: 80%;
+    background-color: rgb(214, 239, 255);
+}
+
+#canalActualYBusqueda {
+    height: 50px;
+    background-color: rgb(0, 255, 191);
+}
+
+#canalActual {
+    height: 50px;
+    width: 70%;
+    background-color: rgb(132, 212, 156);
+
+}
+
+#chatUsuario {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(214, 217, 255);
+
+}
+
+#busqueda {
+    height: 50px;
+    background-color: rgb(82, 146, 82);
+}
+
+#cajaTexto {
+    height: 50px;
+    background-color: rgb(4, 0, 255);
+    margin-top: 550px;
+}
+
+#crearCanal {
+    background-color: rgb(148, 148, 148);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#crear {
+    margin-left: 5%;
+}
+
+#contenedorCanales {
+    height: 590px;
+    overflow-y: auto;
+}
+
+#contenedorCanales div {
+    border: 1px solid black;
+    color: white;
+    height: 25px;
+    padding-top: 8px;
+    text-align: center;
+    width: 98%;
+}
+
+#contenedorCanales div:hover {
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+#usuario {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 15px;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+}

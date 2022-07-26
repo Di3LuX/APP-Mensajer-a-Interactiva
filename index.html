@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera APP</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+</head>
+
+<body onload="obtenerUsuario()">
+
+    <div id="contenedor">
+
+        <div id="canales">
+            <div id="usuario">
+                <span id="nombreUsuario"></span>
+            </div>
+            <div id="crearCanal">
+                <span>Nuevo Canal</span>
+                <button id="crear" onclick="crearCanal()">+</button>
+            </div>
+            <div id="contenedorCanales">
+                <div id="general">
+                    <span>General</span>
+                </div>
+            </div>
+        </div>
+        <div id="contenedorChat">
+            <div id="canalActualYBusqueda">
+                <div id="busqueda">
+                    <div id="canalActual">
+                    </div>
+                </div>
+            </div>
+            <div id="chatUsuario">
+            </div>
+            <div id="cajaTexto">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
